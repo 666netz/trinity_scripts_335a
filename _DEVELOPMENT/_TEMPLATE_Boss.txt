@@ -1,0 +1,42 @@
+#include "ScriptPCH.h"
+
+class boss_meiner : public CreatureScript
+{
+public:
+    boss_meiner() : CreatureScript("boss_meiner") { }
+
+    CreatureAI* GetAI(Creature* pCreature) const
+    {
+        return new boss_meinerAI (pCreature);
+    }
+
+    struct boss_meinerAI : public ScriptedAI
+    {
+        boss_meinerAI (Creature *c) : ScriptedAI(c)
+        { }
+
+        void Reset()
+        { }
+
+        void EnterCombat(Unit* /*who*/)
+        { }
+
+        void JustDied(Unit* /*killer*/)
+        { }
+      
+        void KilledUnit(Unit *)
+        { }
+        
+        void UpdateAI(const uint32 diff)
+        {
+            if (!UpdateVictim())
+                return;
+        }
+    };
+
+};
+
+void AddSC_boss_meiner()
+{
+    new boss_meiner();
+}

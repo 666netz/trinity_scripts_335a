@@ -1,0 +1,98 @@
+    Player Functions
+     
+    SendAreaTriggerMessage("text"); - Sends an Area Trigger Message
+    BroadcastMessage("text"); - Sends a message to the chatbox
+    EventTeleport(mapid, x, y, z); - Teleports the player
+    SafeTeleport(mapid, instanceid, location vector); - Teleports the player to specific instance
+    Kick(miliseconds); - Kicks the player in x miliseconds
+    SoftDisconnect(); - Ends the player's session
+    Reset_Spells(); - Resets spells
+    Reset_Talents(); - Resets Talents
+    Reset_ToLevel1(); - Resets player to level 1
+    GiveXP(y, guid, true); - Gives y number of XP to a player guid
+    AddCalculatedRestXP(# of seconds); - Adds rested xp to player equal to # of seconds
+    GetPositionX(); - Get player's X coordinate
+    GetPositionY(); - Get player's Y coordinate
+    GetPositionZ(); - Get player's Z coordinate
+    GetPositionO(); - Get player's O coordinate
+    KillPlayer(); - Kills the player
+    ResurrectPlayer(); - Resurrects the player
+    SetBindPoint(x, y, z, mapid, zoneid); - Bind the player's hearthstone
+    ModStanding(Faction, Value); - Modifies the player's standing with the Faction
+    _AdvanceSkillLine(SkillLine, x); - Advances a skill line x times
+    _AddSkillLine(SkillLine, min, max); - Adds skill line x with minimum and maximum level
+    _RemoveSkillLine(x); - Removes skill line x
+    _HasSkillLine(x); - Returns true if player has skill line x
+    _RemoveAllSkills(); - Removes all skills from player
+    _RemoveLanguages(); - Removes all languages from player
+    _AddLanguages(true); - Adds all languages to player
+    _AdvanceAllSkills(x); - Advances all skills x times
+    _ModifySkillMaximum(SkillLine, Max); - Sets a skill level equal to Max
+    GetClass(); - Returns the player's class
+    GetRace(); Returns the player's race
+    getLevel(); - Returns the player's level
+    GetGUID(); - Returns the player's guid
+    GetLowGuid(); - Returns the player's low guid
+    getTeam(); Returns true (1) if player is horde
+    GetItemInterface()->GetItemCount(itemid, false); - Returns the number of itemid the player has
+    PlaySoundToSet(entryid); - Plays a sound entry
+     
+    Item * pItem = objmgr.CreateItem(itemid, Player);
+    GetItemInterface()->AddItemToFreeSlot(pItem); - Adds and item to Player
+     
+    LevelInfo * Info = objmgr.GetLevelInfo(PlayerRace, PlayerClass, level);
+    ApplyLevelInfo(Info, level); - mods a players level
+     
+    PVP
+    IsPvPFlagged() - When returned true, player is in pvp
+    SetPvPFlag(); - Sets the player in pvp
+    RemovePvPFlag(); - Removes the player from pvp
+    IsFFAPvPFlagged() - When returned true, player is in FFA pvp
+    SetFFAPvPFlag(); - Sets the player in FFA pvp
+    RemoveFFAPvPFlag(); - Removes the player from FFA pvp
+    RecalculateHonor(); - Reloads honor
+     
+    Spells
+    AddAura(#); - Adds an aura to the player
+    addSpell(spellid); - Adds a spell to the player
+    CastSpell(target, spellid, 0); - Cast a spell on target
+    HasSpell(spellid); - Returns true if the player has the spell
+     
+    Quests
+    HasFinishedQuest(quest_id); - Returns true if player has finished the quest
+    HasQuestForItem(itemid); - Returns true if player has quest item
+    HasQuestSpell(spellid); - Returns true if player has quest spell
+    HasQuest(quest_id); - Returns true if player has quest
+     
+    Server Hooks
+     
+    OnNewCharacter(uint32 Race, uint32 Class, WorldSession * Session, const char * Name);
+    OnKillPlayer(Player * pPlayer, Player * pVictim);
+    OnFirstEnterWorld(Player * pPlayer);
+    OnEnterWorld(Player * pPlayer);
+    OnGuildCreate(Player * pLeader, Guild * pGuild);
+    OnGuildJoin(Player * pPlayer, Guild * pGuild);
+    OnDeath(Player * pPlayer);
+    OnRepop(Player * pPlayer);
+    OnEmote(Player * pPlayer, uint32 Emote, Unit * pUnit);
+    OnEnterCombat(Player * pPlayer, Unit * pTarget);
+    OnCastSpell(Player * pPlayer, SpellEntry * pSpell);
+    OnLogoutRequest(Player * pPlayer);
+    OnLogout(Player * pPlayer);
+    OnQuestAccept(Player * pPlayer, Quest * pQuest, Object * pQuestGiver);
+    OnZone(Player * pPlayer, uint32 Zone);
+    OnChat(Player * pPlayer, uint32 Type, uint32 Lang, const char * Message, const char * Misc);
+    OnLoot(Player * pPlayer, Unit * pTarget, uint32 Money, uint32 ItemId);
+    OnEnterWorld2(Player * pPlayer);
+    OnCharacterCreate(Player * pPlayer);
+    OnQuestCancelled(Player * pPlayer, Quest * pQuest);
+    OnQuestFinished(Player * pPlayer, Quest * pQuest, Object * pQuestGiver);
+    OnHonorableKill(Player * pPlayer, Player * pKilled);
+    OnArenaFinish(Player * pPlayer, ArenaTeam* pTeam, bool victory, bool rated);
+    OnObjectLoot(Player * pPlayer, Object * pTarget, uint32 Money, uint32 ItemId);
+    OnAreaTrigger(Player * pPlayer, uint32 areaTrigger);
+    - OnPostLevelUp(Player * pPlayer);
+    + void OnLevelChanged(Player* player, uint8 newLevel);
+    OnPreUnitDie(Unit *Killer, Unit *Victim);
+    OnAdvanceSkillLine(Player * pPlayer, uint32 SkillLine, uint32 Current);
+    OnDealDamage(Player * plr);

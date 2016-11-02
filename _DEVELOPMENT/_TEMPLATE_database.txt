@@ -1,0 +1,29 @@
+	QueryResult result = WorldDatabase.PQuery("SELECT entry,name,displayid,Quality,ItemLevel,RequiredLevel,spellid_2 FROM world.item_template WHERE class = '1' ORDER BY %s", ORDER);
+	if (result)
+	{
+		Field * fields = NULL;
+		do
+		{
+			fields = result->Fetch();
+			DB_Bags data;
+			// ---
+			if (fields[1].GetString().length() > 0)
+			{
+				// ---
+				data.entry = fields[0].GetUInt32();
+				data.name = fields[1].GetString();
+				data.displayid = fields[2].GetUInt32();
+				data.quality = fields[3].GetUInt32();
+				data.itemlevel = fields[4].GetUInt32();
+				data.requiredlevel = fields[5].GetUInt32();
+				data.spellid2 = fields[6].GetUInt32();
+				data.icon = "buttons\\ButtonHilight-Square";
+				// ---
+				Data_Bags.push_back(data);
+			}//if gueltig
+		} while (result->NextRow());
+	}
+	else
+	{
+		TC_LOG_ERROR("misc", "DATABASE ERROR - NPC_GIVER_Bags");
+	}

@@ -1,0 +1,185 @@
+PASTEBINnew pastetrends API tools faq 
+search...
+ 
+
+Guest User
+-
+      
+Public Pastes
+Untitled
+17 sec ago
+Untitled
+JavaScript | 29 sec ago
+Untitled
+33 sec ago
+Untitled
+39 sec ago
+Untitled
+40 sec ago
+Untitled
+45 sec ago
+Untitled
+53 sec ago
+Untitled
+SQF | 1 min ago
+
+Pastebin PRO Accounts AUTUMN SPECIAL! For a limited time only get 40% discount on a LIFETIME PRO account! Offer Ends Soon!
+SHARE
+TWEET
+
+Add item if space
+ ROCHET2     AUG 9TH, 2012   100   NEVER
+
+rawdownloadcloneembedreportprint C++ 2.39 KB
+#define ITEMID 25
+#define AMOUNT 5
+#define ITEM_MYSTERY_TICKET 9999
+ 
+class Test_NPC: public CreatureScript
+{
+public:
+    Test_NPC() : CreatureScript("Test_NPC") { }
+ 
+    bool OnGossipHello(Player * player, Creature * creature)
+    {
+        player->ADD_GOSSIP_ITEM(3, "test", GOSSIP_SENDER_MAIN, GOSSIP_ACTION_INFO_DEF+1);
+        player->ADD_GOSSIP_ITEM(1, "Nevermind", GOSSIP_SENDER_MAIN, GOSSIP_ACTION_INFO_DEF+2);
+        player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE, creature->GetGUID());
+        return true;
+    }
+ 
+    bool OnGossipSelect(Player * player, Creature * creature, uint32 sender, uint32 uiAction)
+    {
+        player->PlayerTalkClass->ClearMenus();
+        switch(uiAction)
+        {
+        case GOSSIP_ACTION_INFO_DEF+1:
+            {
+                if (player->GetItemCount(ITEM_MYSTERY_TICKET) >= 2)
+                {
+                    if(!ModifyItemAmount(player, ITEMID, AMOUNT)) // ModifyItemAmount gives the player the items if he has space. If no space, returns false.
+                        player->GetSession()->SendNotification("You do not have enough space!");
+                    else
+                        ModifyItemAmount(player, ITEM_MYSTERY_TICKET, -2); // ModifyItemAmount can also remove items from inventory if you provide negative amount.
+                }
+                else
+                    player->GetSession()->SendNotification("You do not have enough space!");
+            } break;
+        case GOSSIP_ACTION_INFO_DEF+2:
+            {
+                player->CLOSE_GOSSIP_MENU();
+            } break;
+        }
+    }
+ 
+    // Custom function:
+    bool ModifyItemAmount(Player * player, uint32 itemEntry, uint32 amount)
+    {
+        if (amount < 0)
+        {
+            player->DestroyItemCount(itemEntry, -amount, true, false);
+            return true;
+        }
+        if (amount == 0)
+            amount = 1;
+ 
+        uint32 noSpaceForCount = 0;
+ 
+        ItemPosCountVec dest;
+        uint8 msg = player->CanStoreNewItem(NULL_BAG, NULL_SLOT, dest, itemEntry, amount, &noSpaceForCount);
+ 
+        if (msg != EQUIP_ERR_OK)
+            amount -= noSpaceForCount;
+ 
+        if (amount == 0 || dest.empty())
+            return false;
+ 
+        Item* item = player->StoreNewItem(dest, itemEntry, true, Item::GenerateItemRandomPropertyId(60000));
+        return true;
+    }
+};
+ 
+void AddSC_Test_NPC()
+{
+    new Test_NPC();
+}
+RAW Paste Data
+
+#define ITEMID 25
+#define AMOUNT 5
+#define ITEM_MYSTERY_TICKET 9999
+
+class Test_NPC: public CreatureScript
+{
+public:
+    Test_NPC() : CreatureScript("Test_NPC") { }
+
+    bool OnGossipHello(Player * player, Creature * creature)
+    {
+        player->ADD_GOSSIP_ITEM(3, "test", GOSSIP_SENDER_MAIN, GOSSIP_ACTION_INFO_DEF+1);
+        player->ADD_GOSSIP_ITEM(1, "Nevermind", GOSSIP_SENDER_MAIN, GOSSIP_ACTION_INFO_DEF+2);
+        player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE, creature->GetGUID());
+        return true;
+    }
+
+    bool OnGossipSelect(Player * player, Creature * creature, uint32 sender, uint32 uiAction)
+    {
+        player->PlayerTalkClass->ClearMenus();
+        switch(uiAction)
+        {
+        case GOSSIP_ACTION_INFO_DEF+1:
+            {
+                if (player->GetItemCount(ITEM_MYSTERY_TICKET) >= 2)
+                {
+                    if(!ModifyItemAmount(player, ITEMID, AMOUNT)) // ModifyItemAmount gives the player the items if he has space. If no space, returns false.
+                        player->GetSession()->SendNotification("You do not have enough space!");
+                    else
+                        ModifyItemAmount(player, ITEM_MYSTERY_TICKET, -2); // ModifyItemAmount can also remove items from inventory if you provide negative amount.
+                }
+                else
+                    player->GetSession()->SendNotification("You do not have enough space!");
+            } break;
+        case GOSSIP_ACTION_INFO_DEF+2:
+            {
+                player->CLOSE_GOSSIP_MENU();
+            } break;
+        }
+    }
+
+    // Custom function:
+    bool ModifyItemAmount(Player * player, uint32 itemEntry, uint32 amount)
+    {
+        if (amount < 0)
+        {
+            player->DestroyItemCount(itemEntry, -amount, true, false);
+            return true;
+        }
+        if (amount == 0)
+            amount = 1;
+
+        uint32 noSpaceForCount = 0;
+
+        ItemPosCountVec dest;
+        uint8 msg = player->CanStoreNewItem(NULL_BAG, NULL_SLOT, dest, itemEntry, amount, &noSpaceForCount);
+
+        if (msg != EQUIP_ERR_OK)
+            amount -= noSpaceForCount;
+
+        if (amount == 0 || dest.empty())
+            return false;
+
+        Item* item = player->StoreNewItem(dest, itemEntry, true, Item::GenerateItemRandomPropertyId(60000));
+        return true;
+    }
+};
+
+void AddSC_Test_NPC()
+{
+    new Test_NPC();
+}
+
+                
+create new paste  /  dealsnew!  /  api  /  trends  /  syntax languages  /  faq  /  tools  /  privacy  /  cookies  /  contact  /  dmca  /  advertise on pastebin  /  scraping  /  go  
+Site design & logo © 2016 Pastebin; user contributions (pastes) licensed under cc by-sa 3.0 -- Dedicated Server Hosting by Steadfast   
+
+Top

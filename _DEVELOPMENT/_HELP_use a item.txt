@@ -1,0 +1,22 @@
+#include "ScriptPCH.h"
+
+class comando_dnd : public ItemScript
+{
+public:
+    comando_dnd() : ItemScript("comando_dnd") { }
+
+    bool OnUse(Player* player, Item* item, SpellCastTargets const& targets)
+    {
+        player->AddItem(23832, 1);
+        return true;
+    }
+};
+
+void AddSC_comando_dnd()
+{
+    new comando_dnd();
+}
+
+
+------------------
+Add this spell http://www.wowhead.com/spell=33227 in the spellid_1 column and set spellcharges_1 to -1.

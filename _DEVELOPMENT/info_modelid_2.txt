@@ -1,0 +1,764 @@
+
+PARTE 1 
+---Races--- 
+3533 - Undead (Male) 
+3529 - undead (Female) 
+4358 - Troll (Female) 
+11193 - Troll (Male) 
+6768 - Orc (Female) 
+6785 - Orc (Male) 
+5486 - Tauren (Male) 
+3000 - Tauren (Female) 
+2222 - Night Elf (Female) 
+2245 - Night Elf (Male) 
+7000 - Gnome (Female) 
+7004 - Gnome (Male) 
+7001 - Dwarf (Male) 
+5737 - Dwarf (Female) 
+17155 - Draenei (Male) 
+19171 - Draenei (Female) 
+19161 - Goblin (Female) 
+19000 - Goblin (Male) 
+19169 - Blood Elf (Female) 
+21881 - Blood Elf (Male) 
+5735 - Human (Female) 
+5736 - Human (Male) 
+
+---City Bosses-- 
+4527 - Thrall (Org) 
+11657 - Lady Sylvanas (UC) 
+4307 - Cairne Bloodhoof (TB) 
+17122 - Lor´themar Theron (SC) 
+3597 - King Magni Bronzebeard (IF) 
+5566 Highlord Bolvar Fordragon (SW) 
+7006 High Tinker Mekkatorque (Gnomer) 
+7274 - Tyrande Whisperwind (Darn) 
+
+---Animals--- 
+1547 - Gazelle 
+5555 - Cat 
+10000 - Goat 
+17000 - Snake 
+17093 - Dragon 
+2177 - Cockroach 
+1141 - Rat 
+9554 - Blood Parrot 
+12210 - Shark 
+7900 - "Worm" 
+3200 - Bear 
+19422 - Wolf 
+
+---Other--- 
+21435 - Fel Reaver 
+
+---Voidwalker Shape--- 
+525 - Water elemental 
+12129 - Fire elemental 
+14273 - Water elemental (nr 2) 
+20242 - Invisibility elemental 
+20431 - Guldan lava elemental 
+19952 - Armored voidwalker 
+19951 - Naaru voidwalker 
+19902 - Yellow voidwalker 
+20211 - Air elemental 
+
+---OTHER ELEMENTALS--- 
+360 - Ooze 
+370 - Wight 
+507 - White ethereal 
+20295 - Red ethereal 
+20373 - Blue bubbles 
+20383 - Purple bubbles 
+20262 - Red bubbles 
+Wisp-10045 
+Red wisp-16587 
+
+---GIANTS--- 
+9009 - Vine golem 
+975 - stone guardian 
+6751 - Sea giant 
+1918 - mountain giant 
+20249 - Tree giant, dark green 
+20249 - tree giant 
+20261 - Green stone giant 
+20282 - Red infernal 
+20324 - green infernal 
+20346 - Gronn 
+19971 - Arcane golem 
+514 - purple Harvest golem 
+860 - treeguy 
+20306 - Blue naaru 
+
+---+ bosses--- 
+20023 - Kael Sunstrider 
+20628 - Maiev Shadowsong 
+20918 - Rexxar Champion of the Horde 
+18292 - Archmond 
+21401 - Lady Sinestra 
+17261 - Champion Sunstrike 
+17260 - Champion Swiftblade 
+21135 - Illidan Storimrage 
+18945 - Al'ar 
+
+
+PARTE 2 
+-Molten Core- 
+11121 - Ragnaros 
+11986 - Golemagg The Incinerator 
+13031 - Lucifron 
+10193 - Magmadar 
+12239 - Garr 
+13032 - Shazzrah 
+12129 - Barron Geddon 
+12029 - Majordomo Executus 
+
+-Ahn'Quiraj- 
+15345 - The Prophet Skeram 
+15658 - Vem 
+15583 - Battleguard Satura 
+15743 - Fankriss The Unyielding 
+15739 - Princess Huhuran 
+15509 - Ouro 
+15778 - Emperor Vek'lor 
+15786 - C'thun 
+
+-World Bosses- 
+14992 - Prince Thunderaan 
+8570 - Onyxia 
+12449 - Lord Kazzak 
+17887 - Doom Lord Kazzak 
+18649 - High King Maulgar 
+18698 - Gruul The Dragonkiller 
+18718 - Medivh 
+
+-Blackwig Lair- 
+11380 - Nefarian 
+14367 - Chromaggus 
+6378 - Firemaw 
+6369 - Ebonroc 
+9231 - Flamegor 
+13992 - Vaelastrasz 
+12649 - Razorgore 
+9472 - Lord Victor Nefarius 
+
+-PVP People- 
+17822 - Velen The Prophet 
+
+-Black Temple- 
+20681 - Akama 
+16642 - Gul'Dan 
+21137 - Illidan Stormrage 
+20465 - Ghostrider of Kharabor 
+18419 - Mistress of Doom 
+
+-Karazhan- 
+16040 - Attumen The Huntsman 
+18062 - Nightbane 
+16198 - Maiden of Virtue 
+
+-Naxxramas- 
+16188 - Patchwerk 
+16035 - Grobbulus 
+16109 - Loatheb 
+16137 - Thaddius 
+15928 - Maexxna 
+16064 - Gluth 
+15945 - Kel'Thuzzad 
+16033 - Sapphiron 
+
+-Zul'Gurub- 
+11311 - Jin'Do the Hexxer 
+15218 - High Priestess Arlokk 
+11288 - Bloodlord Mandokir 
+15217 - High Priest Venoxxis 
+15219 - High Priest Jeklik 
+15216 - High Priest Thekal 
+7873 - Gri'lek 
+15295 - Hakkar 
+
+-The Eye/SSC- 
+20216 - The Lurker Below 
+20662 - Fathom Lord Karathes 
+20739 - Morogrim Tidewalker 
+20235 - Warlord Kalithres 
+20748 - Lady Vashj 
+20023 - Kael'thas Sunstrider 
+17729 - Rokmar The Crackler 
+
+
+PARTE 3 
+---Geral--- 
+Ragnaros - 11121 
+Thunderaan - 14992 
+Onyxia - 8570 
+Nefarian - 11380 
+Chromaggus - 14367 
+Firemaw - 6378 
+Ebonroc - 6369 
+Flamegor - 9231 
+Bloodlord Lasher - 14308 
+Vaelasrasz - 13992 
+Razorgore - 12649 
+Gyth - 9806 
+Lord Victor Nefarius - 9472 
+The Epoch Hunter - 19135 
+Ancient Corehound - 12189 
+Lucifron - 13031 
+Magmadar - 10193 
+Gehenans - 13030 
+Garr - 12239 
+Shazzrah - 13032 
+Barron Geddon - 12129 
+Majordomo Executus - 12029 
+Golemagg The Incinerator - 11986 
+Gothikk The Harvester - 16309 
+Morph In The Weapon you're Wearing Only - 15880 
+Thaddius - 16137 
+Gluth - 16064 
+Maexxna - 15928 
+Grand Widdow Faerlina - 15940 
+Anub'Rekhan - 16586 
+Mad Scientist - 16176 
+Surgical Assistant ( Ud Gnome ) - 836 
+Patchwerk - 16188 
+Grobbulus - 16035 
+Loatheb - 16109 
+Thane Kar'thazz - 16329 
+Lady Blaumex - 16153 
+Highlord Morgraine - 16139 
+Sir Zellek - 16154 
+Noth The Plaguebringer - 16590 
+Jin'Do the hexxer - 11311 
+High Priestess Arlokk - 15218 
+High Priest Thekal - 15216 
+Gri'lek - 7873 
+Hazza'rah - 15267 
+Ohgan - 15271 
+Bloodlord Mandokir - 11288 
+High Priest Venoxxis - 15217 
+High Priest jeklik - 15219 
+A Troll Riding A Bat - 15303 
+Nexus prince haramad - 21020 
+Medivh - 18718 
+Blood elf Kid - 19314 
+Blue Whisp - 10045 
+Red Whisp - 16587 
+Daemonicus - 14555 
+Green Fire Elemental - 9449 
+Terrorfiend : 18373 
+Azzarius The Cruel - 18371 
+Mistress Of Doom - 18419 
+Raging Colossus - 18275 
+Ashyen - 17310 
+Ghostrider of Kharabor - 20465 
+A Shark - 15555 
+Gul'dan - 16642 
+Cyrukh - 20135 
+Deathforge Smith - 17210 
+Deathforge Imp - 16889 
+Deathforge Tinkerer - 18621 
+Chrono Lord Deja - 20513 
+Anachronos - 15500 
+Infinite Chronomaster - 19061 
+A Fel cannon - 18505 
+Different Model Human Male - 101 
+Differment Model Human Female - 100 
+A Fat Human - 103 
+A Rabbit - 328 
+The Prophet Skeram - 15345 
+Princess Yaui - 15693 
+Lord Kri - 15694 
+Vem - 15658 
+A Cool looking Bug - 15695 
+Battleguard Zatura - 15583 
+Fankriss The Unyielding - 15743 
+Princess Huhuran - 15739 
+Emperor Vek'lor - 15778 
+Emperor Vek'Nilash - 15761 
+Ouro - 15509 
+Eye Of C'thun - 15556 
+Giant Eye Tentacle - 15788 
+Warchief kargath bladefist - 19799 
+The Lurker Below - 20216 
+Leotheras the Blind - 20541 
+Fathom Lord Karathes - 20662 
+Morogrim Tidewalker - 20739 
+Warlord Kalithres - 20235 
+Ghaz'an - 17528 
+Rokmar The Crackler - 17729 
+Quagmirran - 18224 
+Broggok - 19372 
+Varuzden The Herald - 18944 
+Attumen The Huntsmen - 16040 
+Nightbane - 18062 
+Maiden of Virtue - 16198 
+High King Maulgar - 18649 
+Gruul the dragonkiller - 18698 
+Gronn - 18645 
+Sabellian - 21079 
+Gorgrom The Dragon eater - 20346 
+Warp Splinter - 19438 
+Al'ar The Phoenix God - 18945 
+
+---Demon Morphs--- 
+Kil'jaedan - 23200 
+Lord kazzak - 12449 
+Doomlord kazzak ( kazzak With armour ) - 17887 
+Lord Illidan Stormrage - 21137 
+Illidan's Demon form - 21322 
+Infernal - 19726 
+Doom Demon - 433 
+Fel Orc - 21267 
+Varimathras - 11658 
+A Female Demon? - 20861 
+
+
+---Level 70 Elite Tauren Chieftain Morphs (BANDA HORDA)--- 
+L70ETC Blood elf with Guitar - 21666 
+L70ETC Singing orc - 21665 
+L70ETC Troll with Guitar - 21662 
+L70ETC Tauren On drums - 21661 
+L70ETC Undead With Guitar - 21659 
+
+---Darkmoon Faire Morphs--- 
+21667 - 21684 - Darkmoon Faire Costumes on all Races (Includes high elves) 
+
+---Random Morphs--- 
+Blizzcon Murloc Costume - 21723 
+Murloc - 21727 
+Undead - 19896 
+WoW TBC Draenei Char Intro - 21023 
+
+---Dragon Morphs--- 
+Blue Whelp - 9994 
+Red Whelp - 956 
+Green Whelp - 694 
+Bronze Whelp - 14720 
+Infinite Whelp - 20515 
+Chromatic Whelp - 10095 
+
+
+
+21976 - Arthas Small 
+24641 - Arthas Ghost 
+24949 - Arthas Regular 
+22235 - The Lich King without his helmet on 
+22234 - The Lich King With his Helmet on 
+24378 - EntSkinSoftBlue 
+23970 - KrakkenSkinGreen 
+23941 - FlyingNerubianRed 
+23942 - NerubianWarrior_Black 
+23943 - Nerubian_Black 
+23944 - FlyingNerubianYellow 
+23880 - CryptLordSkin_Scourge 
+23881 - CryptLordSkin_Dark 
+23882 - CryptLordSkin_Red 
+23884 - Forskaen Catapult 
+25082 - Frost Nyhm01 
+25083 - Frost Nyhm02 
+25084 - Frost Nyhm03 
+24978 - Penguin!! 
+24926 - LionSeal01 
+24927 - LionSeal02 
+24928 - LionSeal03 
+24929 - LionSeal04 
+23946 - PolarBearCub 
+23977 - Nerubian_Albino 
+24047 - TundraGiant 
+23681 - SuperZombieblack 
+23684 - AirElementalSkinBlue 
+23693 - MountainGiantCrystal_Skin_WhiteCrystal 
+23699 - FurbolgSkinBlue 
+23700 - FurbolgSkinWhite 
+23704 - DragonSkin1 Azuregoz 
+23772 - DireFurbolg_Red 
+23773 - DireFurbolg_Black 
+23774 - DireFurbolg_White 
+23835 - ArcaneVoidWraithBlue 
+23838 - WargenSkinBrown 
+24101 - Dragon_NorthrendGray 
+24102 - NerubianPriest_Green 
+24128 - NerubianPriest_Red 
+24129 - NerubianPriest_Blue 
+24130 - NerubianPriest_White 
+24137 - DragonSkin1Red 
+24139 - DragonSkin1Black 
+24140 - DragonSkin1Blue 
+24141 - DragonSkin1Bronze 
+24142 - DragonSkin1Green 
+24217 - KeeperOfTheGroveSkin3 
+24227 - StoneGolemSkinObsidian 
+24240 - SiegeTank 
+24273 - GhoulSkinGrey 
+24274 - SkeletonSkin 
+24275 - WightSkinWhite 
+24301 - NorthrendFleshGiant_Glow 
+24377 - BatSkinWhite01 
+
+----Update---- 
+24961 - AncientofWarSkinSnow 
+24954 - Magnataurblack 
+24942 - EtherialSkin_White 
+24873 - Magnataurblue 
+24834 - NecromancerGreen 
+24804 - NecromancerBlue 
+24803 - UndeadBeast 
+24802 - MountedDeathknightGreenGold_01 
+24800 - MountedDeathknightWhite_01 
+24789 - Regular CryptLordSkin 
+24793 - NecromancerPurple 
+24796 - GiantSpider 
+24795 - FungalMonster 
+24794 - MountedDeathknightDarkBlueBlack_01 
+24792 - FleshGiantSkin1 
+24787 - NewKel'Thuzad 
+24743 - BlueDragonFlight_01 
+
+----Update02---- 
+24593 - Demon Hunter 
+24499 - SkeletonSkinGreen 
+24495 - SkeletonMage 
+24489 - CentaurWarriorSkinWhite 
+24484 - NorthrendFleshGiant_Glow 
+24101 - protodragon_NorthrendGray 
+24082 - SerpentSkinRuby 
+24083 - SerpantSkinBlue 
+24072 - FrostNymph2Winter 
+24071 - ArcticCondorWhite 
+24070 - CentaurWarriorSkinBlack 
+23749 - Velen 
+23684 - AirElementalSkinBlue 
+23709 - CarrionBirdSkinWhite 
+23723 - MountainGiant_Howling1 
+23730 - BoarSkinCrimson 
+23744 - StoneGolemSkinGrey 
+23745 - StoneGolemSkinPlatinum 
+23747 - NetherDragonPurple 
+23816 - NerubianSpiderlingSkinBlue 
+23819 - NerubianSpiderlingSkinBrown 
+23820 - NerubianSpiderlingSkinRed 
+23821 - NerubianCaster 
+23822 - StoneGolemSkinGold 
+23823 - StoneGolemSkinTurquoise 
+23829 - MountainGiant_Zangarmarsh 
+23912 - HarpyIvory 
+23918 - HarpyBlue 
+23931 - HarpyPurple 
+23951 - WapitiSkinArctic 
+23952 - WapitiSkinGreen 
+23984 - NerubianWarrior_Albino 
+25014 - Sappirion / Frost Dragon 
+25015 - Flame Dragon / Fire Dragon 
+
+----Update03---- 
+24963 - Water/Snow/Freeze Wave 
+24954 - Snow Big Beast Thingy 
+24946 - A boat 
+24944 - Another boat... 
+24939 - Water Bubble 
+24938 - A Frost Troll 
+24935 - A >GIRL< deathknight 
+24931 - A Flaming Spear ( Like throwing it ) 
+24930 - A BE Girl Deathknight? 
+24925 - A Webbed up... Something 
+24921 - Weird Green Gnome 01 
+24920 - Weird Green Gnome 02 
+24919 - Weird Green Gnome 03 
+24918 - Evil Gnome 01 
+24914 - Chair! 
+24911 - Blue/Demon Dragoinish Thing 
+24910 - A Frost Demon Hound 
+24905 - HELLSPAWN! 
+24897 - Blue Flower 
+24896 - Cannon Spikey Ball? 
+24895 - Another Flower 
+24892 - Snake? Tentical? Faceless One? Never know until WOTLK! 
+24890 - Red Flower 
+24889 - Lich Container 
+24882 - Red Flower 
+24868 - Caverns of Time - SandTower 
+24826 - Red Glowy Ball ( Kinda like a Crystal ball, except red... ) 
+24807 - Arrow Thrower 
+24762 - Gun on Stand 
+24743 - Frost Dragon 
+24725 - Nether Dragon 
+24712 - Lava Holder? 
+24699 - Ice Void 
+24694 - Girl Deathknight 
+24690 - Ghost - Tuskarr? 
+24689 - Oracle 
+24685 - White Tustar ( or unless its a big fat dwarf with a beard :X ) 
+24591 - Really kick ass armor 
+24590 - Undead * I think it walks like a undead in WoWAlpha * 
+24531 - BIG FREAKING AWSOME FROZEN DWARF 
+24484 - Big Undead/Mechanical Beast? 
+24471 - Necrolisp ( LARGE ) 
+24470 - Necrolisp ( Small ) 
+24417 - White Titan ( Ghost ) 
+24391 - Black Tuskarr 
+24339 - Blue Tuskarr 
+24256 - Can 
+24240 - Still in Developed Cannon 
+24213 - The Lich King ( Large ) 
+24191 - The Lich King ( Larger ) 
+24181 - Zul'Drak? ( They Descripted the boss as a big frozen dead Forest Troll ) 
+24130 - Creepy Thing ( Funny when runs ) 
+24127 - EVIL BIONCIAL GNOME! 
+24013 - Gnome Vault? 
+23999 - Giant Furbolg ( Or from Warcraft 3 The Worlds Biggest Panda! ) 
+
+----Update04---- 
+23386 - Another version of 24591, Thanks to Kenage 
+22232 - Guy with Armor and Tatto's ( Thanks to Muffinstix ) 
+22607 - A Little creature ( Thanks to Muffinstix ) 
+22634 - Guy with NoShirt and Red tatto's ( Thanks to Muffinstix ) 
+85798 - Red Gas ( Thanks to Muffinstix ) 
+
+-- Update 05!! -- 
+24992 - Scourge Zombie 1 
+24993 - Scourge Zombie 2 
+24994 - Scourge Zombie 3 
+24995 - Scourge Zombie 4 
+24996 - Scourge Zombie 5 
+24997 - Scourge Zombie 6 
+24998 - Scourge Zombie 7 
+24999 - Scourge Zombie 8 
+25000 - Scourge Zombie 9 
+25001 - Scourge Zombie 10 
+25002 - Arcane Ethereal 
+25003 - Ugly Mutant ( From the Dranei Startout ) 
+25004 - HUGE mutant ( From above ) 
+25005 - Leopard 
+25006 - Dead, Dark, Green, Smokey Guy 
+25007 - Hawk/Bird 
+25008 - Eagle 
+25009 - Giant Snake 
+25010 - A Colorful Human Mage 
+25011 - A Human Robed Ghost 
+25012 - A Giant Half Skeleton/Dwarf 
+25013 - Orange Dragon 
+25014 - Frost Wyrm 
+25015 - Fire Wyrm 
+25016 - Oracle 
+25017 - Emo Doll 
+25019 - Armored Dwarf - Female 
+25020 - Armored Orc - Male 
+25021 - Armored Troll - Male 
+25022 - Armored Night Elf - Male 
+25023 - Armored Dwarf - Male 
+25024 - Armored Orc - Female 
+25025 - Armored Tauren - Male 
+25026 - HUGE Dragonish thing 
+25027 - Human Male Cloth Armored 
+25028 - Dranei Female Armored 
+25029 - Squeeky Gnome :P 
+25030 - Brown Horse 
+25031 - Blue Arcane Patroler 
+25032 - QueerElf Pirate(Bloodelf) 
+25033 - Dranei Pirate 
+25034 - Dwarf Pirate 
+25035 - Gnome Pirate 
+25036 - Goblin Pirate 
+
+-- Update 06 -- 
+25037 - Human Pirate 
+25038 - Night Elf Pirate 
+25039 - Orc Pirate 
+25040 - Tauren Pirate 
+25041 - Troll Pirate 
+25042 - Undead Pirate 
+25043 - Bloodelf Pirate(Female) 
+25044 - Dranei Pirate(Female) 
+25045 - Dwarf Pirate(Female) 
+25046 - Gnome Pirate(Female) 
+25047 - Goblin Pirate(Female) 
+25048 - Human Pirate(Female) 
+25049 - NightElf Pirate(Female) 
+25050 - Orc Pirate(Female)(Gag) 
+25051 - Tauren Pirate(Female) 
+25052 - Troll Pirate(Female) 
+25053 - Undead Pirate(Female) 
+25054 - Human Pirate(Female) 
+25055 - Tauren(Eyepatch) 
+25056 - Human Female(Nothing Special) 
+25057 - Human Male Armored 
+25058 - Tauren Male ( Nothing Special ) 
+25059 - Human Male Armored 
+25060 - Nightelf Female Armored 
+25061 - Orc Armored Male 
+25062 - Tauren Armored Male 
+25063 - Human Armored Male 
+25064 - Dwarf Armored Male 
+25065 - Undead Armored Male 
+25066 - QueerElf Armored Male 
+25067 - Orc( Nothing Special ) 
+25068 - Human Male ( Cool Hat ) 
+25069 - Human Pirate 
+25070 - Human ( Nothing Special ) 
+25071 - Apple 
+
+25500 -- Guy in cool armor 
+25501 -- Red Eyed Saber 
+25502 -- Blue Eyed Troll 
+25503 -- Member of the Scarlet. 
+25504 -- Member of the Scarlet. 
+25505 -- Member of the Scarlet. 
+25506 -- Member of the Scarlet. 
+25507 -- Member of the Scarlet. 
+25508 -- Member of the Scarlet. 
+25509 -- Member of the Scarlet. 
+25510 -- Member of the Scarlet. 
+25511 -- Dead FrostWrym(a new mount*flying mount*) 
+25512 -- Armored Female Human. 
+25513 -- Random Troll 
+25514 -- Undead or Alive Bloodelf(looks ripped apart and whatnot) 
+25515 -- Giant Ghost Polarbear. 
+25516 -- a random dwarf 
+25517 -- a ghostish maybe even robotic? female thing. 
+25518 -- Random Human Female 
+25519 -- Human male miner. 
+25520 -- Dwarf male Miner 
+25521 -- Random Human 
+25522 -- Random Human 
+25523 -- Random (F)Dwarf 
+25524 -- Random Gnome 
+25525 -- Scuba diving Dwarf 
+25526 -- Scourge member 
+25527 -- Scourge member 
+25528 -- Scourge member 
+25529 -- Tusktar member 
+25530 -- Tusktar member 
+25531 -- Tusktar member 
+25532 -- Tusktar member 
+25533 -- Tusktar member 
+25534 -- Tusktar member 
+25535 -- Tusktar member 
+25536 -- Tusktar member 
+25537 -- Bones 
+25538 -- Bones with meat 
+25539 -- Bigger bones with meat 
+25540 -- Bones 
+25541 -- Undead or Alive Bloodelf Boss ( From above except cape is white ) 
+25542 -- Zombie Scourge member 
+25543 -- Zombie scourge member 
+25544 -- Female Human Miner 
+25545 -- Scarlet Priest | 
+25546 -- Scarlet Priest |--- Funny Hats 
+25547 -- Scarlet Priest | 
+25548 -- Scarlet Priest | 
+25549 -- Ghost Tusktar 
+25550 -- Ghost Tusktar 
+25551 -- Ghost Tusktar 
+25552 -- Ghost Tusktar 
+25553 -- Black void 
+25554 -- Ugly random human 
+25555 -- Random human 
+25556 -- Random human 
+25557 -- Random human 
+25558 -- Random human 
+25559 -- Random Human 
+25560 -- Random human 
+25561 -- Random human 
+25562 -- Random Human(mage) 
+25563 -- Random Human(mage) 
+25564 -- Random human 
+25565 -- Random human(mage) 
+25566 -- Random human 
+25567 -- Random human 
+25568 -- Random human 
+25569 -- Random human 
+25570 -- Blue Flower ( C-C-C-C-OMBO BBBBREAKKKERRRR ) 
+25571 -- White Horse 
+25572 -- Brown horse 
+25573 -- Brown with white Horse 
+25574 -- Black Horse 
+25575 -- Alliance Armored guy 
+25576 -- Alliance Armored guy(same as above) 
+25577 -- Alliance Armored guy(same as above) 
+25578 -- Alliance Armored guy(same as above) 
+25579 -- Gryphon 
+25580 -- Undead Deathknight(wearing start out gear for deathknight) 
+
+24954 - Magnataur 
+24926 - Lion Seal 
+24906 - Magehunter 
+24905 - Fire Revenant 
+22042 - New Wolf/Worg 
+24111 - Clockwork Gnome 
+24689 - Oracle 
+24531 - Northrend Ice Giant 
+24015 - Northrend Giant 
+24301 - Flesh Giant 
+24240 - Siege Tank 
+23884 - Forsaken Catapult 
+24101 - Protodragon 
+24102 - Nerubian Priest 
+24072 - Frost Nymph 
+24071 - Arctic Condor 
+23999 - Dire Furbolg 
+23848 - Shoveltusk 
+24892 - Jormungar Larva 
+24714 - New Blue Dragonflight Drake 
+22067 - White Drake 
+
+---Armors--- 
+24357 
+24355 
+24358 
+24361 
+24363 
+24366 
+24547 
+24548 
+24591 
+24642 
+23463 
+23488 
+23749 
+23824 
+23825 
+23859 
+23866 
+23937 
+23911 
+23919 
+23963 
+
+---Doodads--- 
+24470 - Hovering Obelisk 
+24712 - undead catapult 
+24807 - Dragonhead with arrow 
+
+---Units--- 
+24620 - dragon 
+24753 - serpent 
+24751 - skeleton 
+24862 - strange worm 
+24905 - fiery ghost 
+24926 - strange flying thing 
+24946 - boat with dragonhead 
+24698 - penguin 
+24579 - strange walking undead 
+24417 - ghost statue 
+24710 - rocket mount 
+24693 - zebra mount with horn 
+24447 - ghost gryphon 
+23411 - robot 
+23456 and 23457 - new furbolgs 
+23473 untill 23479 - new bloodelfs 
+23495 - baby kroko 
+23511 - fat guy with small head 
+23523 - fiery draenai ghost 
+23561 untill 23578 (exluding 23574) - nerubian spiders 
+23681 - trembling zombie 
+23682 and 23683 - dark arthas 
+23707 - ragnaros-like grim reaper 
+23724 - wood giant 
+23820, 23819 and 23816 - spiders 
+23817 - lava golem 
+23861 - grub 
+23913 untill 23917 - another spider 
+23946 - baby ice bear 
+25012 - zombie giant 
+23351 - New Kind of Frogdragon 
+23365 - Dwarf fighter Jet 

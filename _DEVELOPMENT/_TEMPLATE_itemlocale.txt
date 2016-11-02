@@ -1,0 +1,8 @@
+			// ---
+			ItemTemplate const* item_template = sObjectMgr->GetItemTemplate(NPC_DBGIVER_Mounts_DATA_filtered[i]);
+			string t_name;
+			if (ItemLocale const* item_locale = sObjectMgr->GetItemLocale(item_template->ItemId))
+				sObjectMgr->GetLocaleString(item_locale->Name, player->GetSession()->GetSessionDbLocaleIndex() , t_name);
+			if (t_name == "") t_name = item_template->Name1;
+			// ---
+			AddGossipItemFor(player, GOSSIP_ICON_VENDOR, "|cff" + NPC_DBGIVER_Mounts_DATA_quality[item_template->Quality] + "(*)|cff000000|t " + t_name + "|r", GOSSIP_SENDER_MENU_GIVE, (100000 + i));

@@ -1,0 +1,19 @@
+bool OnGossipHello(Player* plr, GameObject* go)
+{
+go->SummonCreature(npc_A, go->GetPositionX()+15.0f, go->GetPositionY()+15.0f, go->GetPositionZ(), 0,TEMPSUMMON_CORPSE_TIMED_DESPAWN, 30000);
+go->Despawn(npc_B);
+}
+go->AddUse();
+return false;
+}
+
+
+
+
+
+
+bool OnCreatureSpawn(Player* plr, Creature* npc)
+{
+    if (Creature* target = npc->FindNearestCreature(npc_b, SIZE_OF_GRIDS, true))
+        target->DespawnOrUnsummon();
+}

@@ -1,0 +1,17 @@
+if(m_spellInfo->Id == vybraneid /* vybraneid = id volneho spellu */ && m_caster->GetTypeId()==TYPEID_PLAYER)
+{
+float px, py, pz, po;
+px = m_caster->GetPositionX();
+py = m_caster->GetPositionY();
+pz = m_caster->GetPositionZ();
+po = m_caster->GetOrientation();
+int32 idCreatury = 60000;
+int32 poDobu = 90000 // na jak dlouho se creatura summonne (vybral sem minutu a pul)
+TempSummonType typSummonu = TEMPSUMMON_TIMED_OR_DEAD_DESPAWN;
+Creature* summon = m_caster->SummonCreature(idCreatury, px, py, pz, po, typSummonu, poDobu);
+ if (summon)
+ {
+  summon->SetHealth(10000); // pocet HP po vyvolání
+  summon->SetLevel(m_caster->getLevel()); // dostane level jako má caster (dá se  nahradit císlem 1-73 pro tbc a 1-83 pro wotlk)
+ }
+}

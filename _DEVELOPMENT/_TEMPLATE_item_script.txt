@@ -1,0 +1,23 @@
+/*
+ItemScript Template by Kaev
+Made for MMONerds.com, Modcraft.io and MCore.cc
+*/
+ 
+class itemScriptTemplate : public ItemScript
+{
+public:
+    itemScriptTemplate() : ItemScript("itemScriptTemplate") { } // ItemScript("itemScriptTemplate") = Name of database entry 
+
+    // Called when the player will use (rightclick) the item
+    // IMPORTANT: Item spellid_1 has to be ID 33227 and spellcharges_1 has to be -1 in the database.
+    // You also have to set the item to usable (flags 64)
+    bool OnUse(Player* player, Item* item, SpellCastTargets const& targets) override
+    {
+
+    }
+};
+ 
+void AddSC_itemScriptTemplate() // Add this to the ScriptLoader
+{
+    new itemScriptTemplate();
+}

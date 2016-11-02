@@ -1,0 +1,7 @@
+bool OnGossipHello(Player* player, Creature* creature)
+{
+ClearGossipMenuFor(player);
+AddGossipItemFor(player, GOSSIP_ICON_DOT, "Dies ist eine Abfrage", GOSSIP_SENDER_MAIN, 999, "Bist Du dir sicher ?", 0, false);
+SendGossipMenuFor(player, DEFAULT_GOSSIP_MESSAGE, creature->GetGUID());
+return true;
+}
